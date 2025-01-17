@@ -19,15 +19,15 @@ var guesses = 0
 	
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var test_group1 = ["Luke", "Anakin", "Leia", "Padme"]
-	var test_group2 = ["Tony", "Steve", "Nick", "Natasha"]
-	var test_group3 = ["Bruno", "Rolo", "Sister", "Mirabel"]
-	var test_group4 = ["Xloob", "Paloob", "Hexloob", "Vexloob"]
+	var test_group1 = ["Sudafed", "Lemsip", "Tissue", "Robotussin"]
+	var test_group2 = ["Orlando", "Veinna", "New York", "San Francisco"]
+	var test_group3 = ["Clermont Ferrand", "Houston", "Svannah", "Lyons"]
+	var test_group4 = ["Khal", "Robert", "Jaime", "Robb"]
 	
-	add_group("Skywalkder", test_group1)
-	add_group("Avengers", test_group2)
-	add_group("Madrigals", test_group3)
-	add_group("Wow Character Names", test_group4)
+	add_group("Cold Meds", test_group1)
+	add_group("Conference Cities", test_group2)
+	add_group("Familly Cities", test_group3)
+	add_group("Dead of Thrones", test_group4)
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
